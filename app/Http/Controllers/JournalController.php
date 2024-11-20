@@ -12,7 +12,7 @@ class JournalController extends Controller
      */
     public function index()
     {
-        $journals = Journal::all();
+        $journals = Journal::get();
         return view("home", compact("journals"));
     }
 
