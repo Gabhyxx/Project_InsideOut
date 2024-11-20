@@ -8,7 +8,6 @@
 <body>
     <div id="app">
         <x-header />
-
         <main>
             @yield('content')
         </main>
@@ -16,6 +15,6 @@
         <x-footer />
     </div>
 
-    <script src="{{ asset('js/app.js')}}"></script>
+    
 </body>
 </html>

@@ -20,6 +20,56 @@ class DatabaseSeeder extends Seeder
             'name' => 'Test User',
             'email' => 'test@example.com',
         ]);
-        Journal::factory(10)->create();
+        //Journal::factory(10)->create();
+
+        Journal::factory()->create([
+            'entry' => 'Hoy estoy feliz',
+            'emotion' => 'public/img/alegria.png',
+        ]);
+
+        Journal::factory()->create([
+            'entry' => 'Hoy estoy feliz',
+            'emotion' => 'public/img/alegria.png',
+        ]);
+
+        Journal::factory()->create([
+            'entry' => 'Hoy estoy feliz',
+            'emotion' => 'public/img/alegria.png',
+        ]);
+
+        Journal::factory()->create([
+            'entry' => 'Hoy estoy feliz',
+            'emotion' => 'public/img/alegria.png',
+        ]);
+
+        Journal::factory()->create([
+            'entry' => 'Hoy estoy feliz',
+            'emotion' => 'public/img/alegria.png',
+        ]);
+
+        Journal::factory()->create([
+            'entry' => 'Hoy estoy feliz',
+            'emotion' => 'public/img/alegria.png',
+        ]);
+
+        Journal::factory()->create([
+            'entry' => 'Hoy estoy feliz',
+            'emotion' => 'public/img/alegria.png',
+        ]);
+
+        Journal::factory()->create([
+            'entry' => 'Hoy estoy feliz',
+            'emotion' => 'public/img/alegria.png',
+        ]);
+
+        Journal::factory()->create([
+            'entry' => 'Hoy estoy feliz',
+            'emotion' => 'public/img/alegria.png',
+        ]);
+
+        Journal::factory()->create([
+            'entry' => 'Hoy estoy feliz',
+            'emotion' => 'public/img/alegria.png',
+        ]);
     }
 }
