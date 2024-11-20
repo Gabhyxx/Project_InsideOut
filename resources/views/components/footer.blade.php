@@ -1,3 +1,6 @@
-<header>
-    <h1>HOLA MUNDO!!</h1>
-</header>
+<footer>
+    <h5>
+        Hola Wenas :3
+    </h5>
+</footer>
+
