@@ -31,7 +31,7 @@
     </div>
   </div>
 
-  <img class="emotionsImg" src="{{ asset('css/joy.png')}}" alt="">
+  <img class="emotionsImg" src="https://res.cloudinary.com/djdpt7dqi/image/upload/v1732179767/joy.png" alt="">
 </div>
 
 @endsection
