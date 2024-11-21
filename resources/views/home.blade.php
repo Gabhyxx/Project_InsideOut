@@ -3,7 +3,7 @@
 @section('content')
 <div>
   @foreach($journals as $journal)
-    <a href="" class="diaryCard">
+    <a href="{{ route('showOneJournal', ['id' => $journal->id]) }}" class="diaryCard">
       <div class="entryAndDate">
         <p class="cardEntry">{{ $journal->entry}}</p>
         <div class="bothDateTime">
