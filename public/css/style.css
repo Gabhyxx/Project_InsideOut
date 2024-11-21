@@ -51,10 +51,17 @@ main{
 }
 
 .dateTime{
+    padding: 10px;
     height: 15px;
     width: 150px;
     background-color: var(--secondary);
     border-radius: 20px;
+    margin-right: 1rem;
+}
+
+.bothDateTime{
+    display: flex;
+    flex-direction: row;
 }
 
 .emotionsImg{
@@ -62,4 +69,15 @@ main{
     max-width: 150px;
     object-fit: cover;
     overflow: visible;
+    filter: drop-shadow(10px 10px 4px rgba(63, 63, 158, 0.5));
+}
+
+.entryAndDate{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.entryAndDate .bothDateTime{
+    align-self: flex-end;
 }
