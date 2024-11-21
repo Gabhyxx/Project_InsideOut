@@ -23,53 +23,53 @@ class DatabaseSeeder extends Seeder
         //Journal::factory(10)->create();
 
         Journal::factory()->create([
-            'entry' => 'Hoy estoy feliz',
-            'emotion' => 'public/img/alegria.png',
+            'entry' => 'Joy',
+            'emotion' => 'https://res.cloudinary.com/djdpt7dqi/image/upload/v1732179767/joy.png',
         ]);
 
         Journal::factory()->create([
-            'entry' => 'Hoy estoy feliz',
-            'emotion' => 'public/img/alegria.png',
+            'entry' => 'Nostalgia',
+            'emotion' => 'https://res.cloudinary.com/djdpt7dqi/image/upload/v1732179767/nostalgia.png',
         ]);
 
         Journal::factory()->create([
-            'entry' => 'Hoy estoy feliz',
-            'emotion' => 'public/img/alegria.png',
+            'entry' => 'Sadness',
+            'emotion' => 'https://res.cloudinary.com/djdpt7dqi/image/upload/v1732179767/sadness.png',
         ]);
 
         Journal::factory()->create([
-            'entry' => 'Hoy estoy feliz',
-            'emotion' => 'public/img/alegria.png',
+            'entry' => 'Anger',
+            'emotion' => 'https://res.cloudinary.com/djdpt7dqi/image/upload/v1732179765/anger.png',
         ]);
 
         Journal::factory()->create([
-            'entry' => 'Hoy estoy feliz',
-            'emotion' => 'public/img/alegria.png',
+            'entry' => 'Envy',
+            'emotion' => 'https://res.cloudinary.com/djdpt7dqi/image/upload/v1732179766/envy1.png',
         ]);
 
         Journal::factory()->create([
-            'entry' => 'Hoy estoy feliz',
-            'emotion' => 'public/img/alegria.png',
+            'entry' => 'Ennui',
+            'emotion' => 'https://res.cloudinary.com/djdpt7dqi/image/upload/v1732179766/ennui.png',
         ]);
 
         Journal::factory()->create([
-            'entry' => 'Hoy estoy feliz',
-            'emotion' => 'public/img/alegria.png',
+            'entry' => 'Embarrasment',
+            'emotion' => 'https://res.cloudinary.com/djdpt7dqi/image/upload/v1732179766/embarrassment.png',
         ]);
 
         Journal::factory()->create([
-            'entry' => 'Hoy estoy feliz',
-            'emotion' => 'public/img/alegria.png',
+            'entry' => 'Disgust',
+            'emotion' => 'https://res.cloudinary.com/djdpt7dqi/image/upload/v1732179765/disgust.png',
         ]);
 
         Journal::factory()->create([
-            'entry' => 'Hoy estoy feliz',
-            'emotion' => 'public/img/alegria.png',
+            'entry' => 'Fear',
+            'emotion' => 'https://res.cloudinary.com/djdpt7dqi/image/upload/v1732179766/fear.png',
         ]);
 
         Journal::factory()->create([
-            'entry' => 'Hoy estoy feliz',
-            'emotion' => 'public/img/alegria.png',
+            'entry' => 'Anxiety',
+            'emotion' => 'https://res.cloudinary.com/djdpt7dqi/image/upload/v1732180138/anxiety.png',
         ]);
     }
 }
