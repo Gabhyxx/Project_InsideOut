@@ -1,11 +1,17 @@
 
-# Inside Out Table Title
+![insideOutBanner](https://github.com/user-attachments/assets/714017d9-84d4-42c1-b1a3-6dc69c4635ef)
+
 
 ## Description of the Project
 
 This is a project for the ESMAL3 bootcamp, where we create a page, that displays a journal as a table, and used the information of a database. That database is feeded by an API, where it gives us an ID, an entry, an image of the emotion. Also, internally, it registers the exact date where the entry was created and the last time it was updates.
 
 ## Screenshots
+![image](https://github.com/user-attachments/assets/4e86461e-b120-4bc2-b453-c70640d5b872)
+![image](https://github.com/user-attachments/assets/087d3ab1-f112-467a-ad4d-0b49e2d4ec79)
+![image](https://github.com/user-attachments/assets/b0cebbb2-0839-4532-aa48-5e2d06ff8cb4)
+
+
 ## Pre-Requirements
 
 - A database manager (XAMMP, MAMP or similar)
