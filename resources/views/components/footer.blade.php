@@ -2,32 +2,32 @@
 
     <div class="firstFooterSection">
         <div class="footerLogoSection">
-            <img src="" alt="">
+            <img src="https://res.cloudinary.com/djdpt7dqi/image/upload/v1732179766/inside-out-logo.png" alt="Inside out logo" class="footerLogo">
         </div>
     
         <div class="githubSection">
-            <a href="" class="github">
-                <img src="" alt="">
+            <a href="https://github.com/Camposx" class="github">
+                <img src="https://res.cloudinary.com/djdpt7dqi/image/upload/v1732182053/github-logo.png" alt="github logo">
                 <h4>Camposx</h4>
             </a>
 
-            <a href="" class="github">
-                <img src="" alt="">
+            <a href="https://github.com/Crudo7" class="github">
+                <img src="https://res.cloudinary.com/djdpt7dqi/image/upload/v1732182053/github-logo.png" alt="github logo">
                 <h4>Crudo7</h4>
             </a>
 
-            <a href="" class="github">
-                <img src="" alt="">
+            <a href="https://github.com/Gabhyxx" class="github">
+                <img src="https://res.cloudinary.com/djdpt7dqi/image/upload/v1732182053/github-logo.png" alt="github logo">
                 <h4>Gabhyxx</h4>
             </a>
 
-            <a href="" class="github">
-                <img src="" alt="">
-                <h4>Mangel1111</h4>
+            <a href="https://github.com/Mangel111111111" class="github">
+                <img src="https://res.cloudinary.com/djdpt7dqi/image/upload/v1732182053/github-logo.png" alt="github logo">
+                <h4>Mangel11</h4>
             </a>
 
-            <a href="" class="github">
-                <img src="" alt="">
+            <a href="https://github.com/Matias-Stadler" class="github">
+                <img src="https://res.cloudinary.com/djdpt7dqi/image/upload/v1732182053/github-logo.png" alt="github logo">
                 <h4>Matias</h4>
             </a>
         </div>
