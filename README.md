@@ -26,21 +26,48 @@ This is a project for the ESMAL3 bootcamp, where we create a page, that displays
 - 1 - Install the database manager
 - 2 - Install the API manager
 - 3 - Run the database manager and the IDE
-- 4 - Open two GIT Bash
-- 5 - type the following commands, one on each prompt
-```
-php artisan serve
-
-npm run dev
-```
-- 6 - In the "php artisan serve" prompt, there's a link to the page. It looks similar to an IP address. Control + Click and it will open on the web browser
-- 7 - You can see our page!
+- 4 - Install dependencies paste in bash this two commands:
+   ```php
+     $ composer install
+     ```
+   ```php
+     $ npm install
+     ```
+- 6 - Open two GIT Bash
+- 7 - type the following commands, one on each prompt
+   ```php
+     $ php artisan serve
+     ```
+   ```php
+     $ npm run dev
+     ```
+- 8 - In the "php artisan serve" prompt, there's a link to the page. It looks similar to an IP address. Control + Click and it will open on the web browser
+- 9 - You can see our page!
 ## Endpoints
 ## Tests
 ## Diagrams
 
 ### Database Diagram
 ![Diagram](https://res.cloudinary.com/dmkvpncg9/image/upload/v1732191863/image_kyw84q.png)
+
+## Technologies and tools
+
+We have used different pages that have helped us in the creation of the project. I leave the links below:
+- Stack Overflow: https://stackoverflow.com/ (Resolve doubts about languages)
+- W3Schools: https://www.w3schools.com/ (General code)
+- Neumorphism: https://neumorphism.io/#e0e0e0 (css shadow)
+- Cloudinary: https://cloudinary.com (Upload images)
+
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='HTML5' src='https://img.shields.io/badge/HTML5-100000?style=for-the-badge&logo=HTML5&logoColor=white&labelColor=E34F26&color=E34F26'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='CSS3' src='https://img.shields.io/badge/CSS3-100000?style=for-the-badge&logo=CSS3&logoColor=white&labelColor=1572B6&color=1572B6'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='JavaScript' src='https://img.shields.io/badge/JavaScript-100000?style=for-the-badge&logo=JavaScript&logoColor=white&labelColor=F7DF1E&color=F7DF1E'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='php' src='https://img.shields.io/badge/PHP-100000?style=for-the-badge&logo=php&logoColor=white&labelColor=777BB4&color=777BB4'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='laravel' src='https://img.shields.io/badge/Laravel-100000?style=for-the-badge&logo=laravel&logoColor=white&labelColor=FF2D20&color=FF2D20'/></a>
+
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Git' src='https://img.shields.io/badge/Git-100000?style=for-the-badge&logo=Git&logoColor=white&labelColor=F05032&color=F05032'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='GitHub' src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=GitHub&logoColor=white&labelColor=181717&color=181717'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='composer' src='https://img.shields.io/badge/Composer-100000?style=for-the-badge&logo=composer&logoColor=white&labelColor=885630&color=885630'/></a>
+
 ## Authors
 
 - [Alejando Campos](https://github.com/Camposx)
