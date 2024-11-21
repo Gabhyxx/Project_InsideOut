@@ -44,6 +44,28 @@ This is a project for the ESMAL3 bootcamp, where we create a page, that displays
 - 8 - In the "php artisan serve" prompt, there's a link to the page. It looks similar to an IP address. Control + Click and it will open on the web browser
 - 9 - You can see our page!
 ## Endpoints
+- An endpoint is the URL of the API you want to interact with.
+- Follow the next steps.
+- 1 - Install Postman and open it.
+- 2 - Open a new request, the most used are: Get, Get by id, Post, Put and Delete.
+- 3 - Copy the link you want to use, and paste on postman, next to the Request (get, post, etc).
+-   GET: to retrieve data, POST: to send data (create), PUT: to update data, DELETE: to delete data.
+- 4 - Examples and screenshots.
+
+- This one is GET (all), you have to use http://127.0.0.1:8000/api/journals
+![get all](https://github.com/user-attachments/assets/c6c872e4-ee35-4c24-bfa9-51b38f205172)
+---
+- This one is GET by id, you have to use http://127.0.0.1:8000/api/journals/{id}
+![getById](https://github.com/user-attachments/assets/2295ec18-c3ce-4270-8640-2d4671439f9e)
+---
+- This one is POST, you have to use http://127.0.0.1:8000/api/journals and select "Body" and "raw" to be able to write.
+![post](https://github.com/user-attachments/assets/6b2dd8bd-16ba-4694-9d7b-487dba1dcbff)
+---
+- This one is DELETE, you have to use http://127.0.0.1:8000/api/journals/{id}
+![delete](https://github.com/user-attachments/assets/18ab7c37-9cce-46db-a2d2-789fee8ede44)
+---
+- This one is PUT, you have to use http://127.0.0.1:8000/api/journals/{id} and select "Body" and "raw" to be able to write.
+![put](https://github.com/user-attachments/assets/61649703-b2b8-4341-80a1-df7cd69ffbed)
 ## Tests
 ## Diagrams
 
