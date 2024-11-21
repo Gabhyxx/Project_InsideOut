@@ -4,15 +4,17 @@
 <div>
   @foreach($journals as $journal)
     <a href="" class="diaryCard">
-      <div>
+      <div class="entryAndDate">
         <p class="cardEntry">{{ $journal->entry}}</p>
-        <div>
-          <p>Created at:</p>
-          <div class="dateTime">{{ $journal->created_at}}</div>
-        </div>
-        <div>
-          <p>Updated at:</p>
-          <div class="dateTime">{{ $journal->updated_at}}</div>
+        <div class="bothDateTime">
+          <div>
+            <p>Created at:</p>
+            <div class="dateTime">{{ $journal->created_at}}</div>
+          </div>
+          <div>
+            <p>Updated at:</p>
+            <div class="dateTime">{{ $journal->updated_at}}</div>
+          </div>
         </div>
       </div>
     

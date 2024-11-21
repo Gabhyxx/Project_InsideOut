@@ -48,7 +48,7 @@ class DatabaseSeeder extends Seeder
 
         Journal::factory()->create([
             //Envy
-            'entry' => "I saw someone’s success today, and it hit me hard. I couldn't help but feel envious of how easily they seem to have it all together.",
+            'entry' => "I saw someone's success today, and it hit me hard. I couldn't help but feel envious of how easily they seem to have it all together.",
             'emotion' => 'https://res.cloudinary.com/djdpt7dqi/image/upload/v1732179766/envy1.png',
         ]);
 
