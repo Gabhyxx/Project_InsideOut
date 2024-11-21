@@ -1,0 +1,63 @@
+@import url(footer.css);
+@import url(header.css);
+@import url(variables.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+main{
+    height: 63dvh;
+    background-color: var(--primary);
+    padding-top: 270px;
+}
+
+.diaryCard{
+    margin: 0 auto;
+    height: 140px;
+    width: 1200px;
+    max-width: 90%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 4rem;
+}
+
+.diaryCard:hover{
+    transform: scale(1.1);
+    box-shadow: -10px 10px 7px rgba(0, 0, 0, 0.35);
+}
+
+.cardEntry{
+    font-size: 1.5rem;
+    text-align: justify;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.dateTime{
+    height: 15px;
+    width: 150px;
+    background-color: var(--secondary);
+    border-radius: 20px;
+}
+
+.emotionsImg{
+    height: 300px;
+    max-width: 150px;
+    object-fit: cover;
+    overflow: visible;
+}
