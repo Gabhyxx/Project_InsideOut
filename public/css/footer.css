@@ -1,0 +1,59 @@
+footer{
+    height: 160px;
+    width: 100%;
+    background-color: var(--secondary-dark);
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.firstFooterSection{
+    height: 120px;
+    display: grid;
+    grid-template-columns: 30% 1fr;
+}
+
+.footerLogoSection{
+    border-right: 1px solid #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.githubSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.github{
+    width: 7rem;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    text-decoration: none;
+    border-radius: 7rem;
+    transition: 0.5s;
+}
+
+.github:hover{
+    box-shadow: inset -4px 4px 9px #0d1b1e,
+                inset 4px -4px 9px #1f4348;
+    background-color: #132a2e;
+}
+
+.github img{
+    margin-bottom: 5px;
+}
+
+.copySection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background-color: var(--secondary-dark);
+    border-top: 1px solid #ffff;
+}
+
+.footerLogo{
+    height: 105px;
+}
