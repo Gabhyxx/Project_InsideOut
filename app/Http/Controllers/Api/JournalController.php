@@ -1,9 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Api;
 
 use App\Models\Journal;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
 class JournalController extends Controller
 {
@@ -12,8 +13,9 @@ class JournalController extends Controller
      */
     public function index()
     {
-        $journals = Journal::get();
-        return view("home", compact("journals"));
+        //
+        $journals = Journal::all();
+        return response()->json($journals, 200);
     }
 
     /**
@@ -29,7 +31,13 @@ class JournalController extends Controller
      */
     public function store(Request $request)
     {
-
+        //
+        $journal = Journal::create([
+            'entry' => $request->entry,
+            'emotion' => $request->emotion
+        ]);
+        $journal->save();
+        return response()->json($journal, 200);
     }
 
     /**

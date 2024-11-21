@@ -11,6 +11,6 @@ class Journal extends Model
 
     protected $fillable = [
         "entry",
-        "emotions",
+        "emotion",
     ];
 }
