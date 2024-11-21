@@ -38,6 +38,11 @@ main{
     margin-bottom: 4rem;
 }
 
+.detailedCard .diaryCard{
+    height: 40dvh;
+    pointer-events:none;
+}
+
 .diaryCard:hover{
     transform: scale(1.1);
     box-shadow: -10px 10px 7px rgba(0, 0, 0, 0.35);
@@ -49,14 +54,19 @@ main{
     width: 80%;
     margin-bottom: 2rem;
 }
+.detailedCard .cardEntry{
+    font-size: 2rem;
+}
 
 .dateTime{
+    margin-top: 0.5rem;
     padding: 10px;
     height: 15px;
     width: 150px;
     background-color: var(--secondary);
     border-radius: 20px;
     margin-right: 1rem;
+    font-weight: 600;
 }
 
 .bothDateTime{
@@ -72,8 +82,36 @@ main{
     filter: drop-shadow(10px 10px 4px rgba(63, 63, 158, 0.5));
 }
 
+.detailedCard .emotionsImg{
+    transform: scale(2);
+}
+
 .entryAndDate{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
 }
+
+button {
+    margin-bottom: 5rem;
+    color: var(--secondary-dark);
+    padding: 0.7em 1.7em;
+    font-size: 2rem;
+    border-radius: 0.5em;
+    background: var(--primary);
+    cursor: pointer;
+    border: 1px solid var(--primary);
+    box-shadow:  7px 7px 14px #788789, -7px -7px 14px #defbff;
+    transition: all 0.2s;
+  }
+  
+  button:active {
+    color: #666;
+    box-shadow: inset 7px 7px 14px #788789, inset -7px -7px 14px #defbff;
+  }
+  .goBackSection{
+    display: flex;
+    justify-content: center;
+  }
