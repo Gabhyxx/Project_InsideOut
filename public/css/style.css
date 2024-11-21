@@ -77,7 +77,3 @@ main{
     flex-direction: column;
     align-items: flex-start;
 }
-
-.entryAndDate .bothDateTime{
-    align-self: flex-end;
-}
