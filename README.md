@@ -76,6 +76,8 @@ This is a project for the ESMAL3 bootcamp, where we create a page, that displays
 - This one is PUT, you have to use http://127.0.0.1:8000/api/journals/{id} and select "Body" and "raw" to be able to write.
 ![put](https://github.com/user-attachments/assets/61649703-b2b8-4341-80a1-df7cd69ffbed)
 ## Tests
+![TestCoverage](https://res.cloudinary.com/dmkvpncg9/image/upload/v1732261250/Tests_buld1f.png)
+
 ## Diagrams
 
 ### Database Diagram
