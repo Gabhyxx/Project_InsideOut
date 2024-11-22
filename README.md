@@ -42,7 +42,16 @@ This is a project for the ESMAL3 bootcamp, where we create a page, that displays
      $ npm run dev
      ```
 - 8 - In the "php artisan serve" prompt, there's a link to the page. It looks similar to an IP address. Control + Click and it will open on the web browser
-- 9 - You can see our page!
+- 9 - Then, you create a database named "insideoutapp".
+- 10 - Now, you need to open a new git bash prompt and type this command
+    ```php 
+    $ php artisan key:generate
+    ```
+- 11 - Finally, there's one more command you need to type, and is
+    ```php 
+    $ php artisan migrate:fresh
+    ```
+- 12 - You can see our page!
 ## Endpoints
 - An endpoint is the URL of the API you want to interact with.
 - Follow the next steps.
