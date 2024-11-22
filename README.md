@@ -47,11 +47,15 @@ This is a project for the ESMAL3 bootcamp, where we create a page, that displays
     ```php 
     $ php artisan key:generate
     ```
-- 11 - Finally, there's one more command you need to type, and is
+- 11 - Change this section in .env file:
+    DB_CONNECTION=mysql
+    DB_DATABASE=insideOutApp
+    
+- 12 - Finally, there's one more command you need to type, and is
     ```php 
     $ php artisan migrate:fresh
     ```
-- 12 - You can see our page!
+- 13 - You can see our page!
 ## Endpoints
 - An endpoint is the URL of the API you want to interact with.
 - Follow the next steps.
