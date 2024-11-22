@@ -23,17 +23,4 @@
   @endforeach
 </div>
 
-{{-- <a href="" class="diaryCard">
-  <div>
-    <p class="cardEntry">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat nulla libero soluta fugiat excepturi! Hic veniam ab laudantium amet! Ullam deleniti totam ex optio quidem ea quaerat minima magnam eligendi?</p>
-    <div>
-      <p>Created at:</p>
-      <div class="dateTime"></div>
-    </div>
-  </div>
-
-  <img class="emotionsImg" src="https://res.cloudinary.com/djdpt7dqi/image/upload/v1732179766/envy1.png" alt="">
-</a> --}}
-
-
 @endsection
